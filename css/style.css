@@ -1,0 +1,51 @@
+/* Bootstrap CSS  */
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css');
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+/* Fontawesome Cdn */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+
+/* General CSS */
+:root {
+    font-size: 16px;
+}
+
+
+body {
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.mb-4, .my-4 {
+    width: -webkit-fill-available;
+}
+
+main {
+    margin-top: 7rem;
+}
+
+.form-check-label {
+    font-size: .8rem;
+}
+
+.btn-green {
+    background-color: #57C0AC ;
+    border-color: #57C0AC;
+    transition: 250ms all ease;
+}
+.btn-green:hover {
+    background: #338d7d;
+    border-color: #57C0AC;
+}
+
+@media (max-width: 761px) {
+    #logo {
+        margin: 1rem auto;
+    }
+    #sign-up {
+        margin: 1rem auto;
+        display: inline-block !important;
+        width: 100%;
+        text-align: center;
+    }
+}
